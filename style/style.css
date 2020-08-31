@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6em;
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Carter One', cursive;
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+header {
+    background-color: #77AFBF;
+    height: 340px;
+    border-bottom: 4px solid white;
+}
+
+h1 {
+    padding: 75px
+}
+
+body {
+    background-color: #C1DEE5;
+    height: 100vh;
+}
+
+#explanation {
+    background-color: #447391;
+    width: 755px;
+    margin: -80px auto;
+    font-size: 35px;
+    padding: 25px;
+    text-align: center;
+    border: white solid 4px;
+    border-radius: 45px;
+}
+
+#options{
+    text-align: center;
+    padding-top: 120px;
+}
+
+#options img{
+    height: 235px;
+    padding: 25px;
+    border-radius: 90%;
+}
+
+#options img:hover{
+    height: 260px;
+    margin: -25px -12.5px 0 -12.5px;
+    cursor: pointer;
+}
+
+#choices{
+    /* text-align: center; */
+    margin-top: 65px;
+    display: grid;
+    width: 840px;
+    grid-template-areas: 
+    'you vs comp';
+    font-size: 50px;
+    background-color: #77AFBF;
+    width: 740px;
+    font-size: 35px;
+    text-align: center;
+    border: white solid 4px;
+    border-radius: 45px;
+    height: 250px;
+}
+
+#choices img{
+    height: 100px;
+}
+
+#result {
+    margin-top: 40px;
+    background-color: #447391;
+    width: 440px;
+    font-size: 35px;
+    padding: 25px;
+    text-align: center;
+    border: white solid 4px;
+    border-radius: 45px;
+}
+
+#replay {
+    margin-top: 25px;
+    background-color: #447391;
+    width: 180px;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+    border: white solid 4px;
+    border-radius: 45px;
+}
