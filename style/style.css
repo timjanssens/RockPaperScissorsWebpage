@@ -98,3 +98,9 @@ body {
     border: white solid 4px;
     border-radius: 45px;
 }
+
+#replay:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    margin-top: 27px;
+}
