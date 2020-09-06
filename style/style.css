@@ -86,6 +86,7 @@ body {
     text-align: center;
     border: white solid 4px;
     border-radius: 45px;
+    height: 110px;
 }
 
 #replay {
