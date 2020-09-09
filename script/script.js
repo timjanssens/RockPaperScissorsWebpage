@@ -1,5 +1,5 @@
 // functions
-let imgArray = ['../img/rock.svg', '../img/paper.svg', '../img/scissors.svg'];
+let imgArray = ['./img/rock.svg', './img/paper.svg', './img/scissors.svg'];
 
 function loadImagesChoice() {
     document.querySelector('#imgChoiceRock').src = imgArray[0];
