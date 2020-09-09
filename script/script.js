@@ -68,8 +68,7 @@ const getWinner = (ownChoice, compChoice) => {
 }
 
 function showWinner(winner) {
-    let winnerEl = document.query
-    Selector('#winner');
+    let winnerEl = document.querySelector('#winner');
     winnerEl.textContent = winner; 
 }
 
